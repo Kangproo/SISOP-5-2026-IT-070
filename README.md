@@ -57,7 +57,6 @@ modul5/
 │   ├── kernel.sh
 │   ├── multi.sh
 │   ├── osboot/
-│   │   └── .gitkeep
 │   ├── qemu.sh
 │   └── single.sh
 └── soal2/
@@ -2096,13 +2095,3 @@ Solusi yang digunakan:
 * memastikan linking menggunakan urutan `kernel-asm.o` sebelum `kernel.o`
 
 ---
-
-# Kesimpulan
-
-Dari pengerjaan Modul 5 ini, saya belajar bahwa pembuatan sistem operasi tidak hanya membutuhkan kode, tetapi juga pemahaman tentang proses booting, kernel, filesystem, emulator, dan cara debugging.
-
-Pada **Soal 1**, saya belajar membuat mini OS berbasis kernel Linux 6.1.1, membangun root filesystem single-user dan multi-user, menjalankan OS melalui QEMU, membuat ISO bootable, mengaktifkan jaringan, membuat package manager sederhana, serta melakukan backup hasil build.
-
-Pada **Soal 2**, saya belajar membuat shell sederhana pada lingkungan 16-bit, membaca input keyboard melalui BIOS interrupt, menulis langsung ke VGA memory, membuat command handler, dan menghindari fitur standard library yang tidak tersedia di lingkungan kernel sederhana.
-
-Secara keseluruhan, praktikum ini membantu saya memahami alur dasar sistem operasi dari tahap booting sampai interaksi user melalui shell.
